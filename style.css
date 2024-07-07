@@ -1,3 +1,183 @@
-h1 {
-    color: red;
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Rubik";
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5% 10% 2% 10%;
+    
+}
+.photo{
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+}
+header ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+header li{
+    display: inline-block;
+    padding: 20px;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10% 2% 10%;
+}
+#mainInformation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5% 0 2% 0;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 2%;
+    line-height: 140%;
+}
+p{
+    font-size: 25px;
+}
+.about p{
+    border: 2px solid #000;
+    width: 85%;
+    padding: 3%;
+    margin: 0;
+    line-height: 40px;
+}
+.contacts{
+    line-height: 40px;
+    padding: 0 3%;
+    list-style-type: none;
+    font-size: 25px;
+}
+#doubleE{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2% 0;
+}
+#doubleE p{
+    font-size: 25px;
+    line-height: 40px;
+}
+.education{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+}
+.education h2{
+    font-size: 35px;
+    margin: 20px;
+}
+.firstE{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.education h3{
+    font-size: 27px;
+    padding: 10px;
+    text-align: center;
+}
+.firstE p{
+    padding: 10px;
+}
+
+.secondE{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.education p{
+    text-align: center;
+    line-height: 40px;
+}
+.experience{
+    width: 85%;
+}
+.experience h2{
+    font-size: 35px;
+    margin: 20px 0;
+}
+.experience p{
+    margin-top: 20px;
+}
+.experience a{
+    color: cornflowerblue;
+}
+#skills{
+    display: flex;
+    flex-direction: column;
+    margin: 2% 0;
+    width: 100%;
+}
+#skills h2{
+    font-size: 35px;
+}
+#skills p{
+    font-size: 25px;
+    padding: 10px 0;
+    text-align: left;
+    padding-right: 10px;
+}
+.col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2% 0;
+    list-style-type: none;
+}
+.title{
+    font-weight: bold;
+}
+#code{
+    display: flex;
+    flex-direction: column;
+    margin: 2% 0;
+    font-size: 25px;
+    padding: 5px;
+}
+#code h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+#code p{
+    font-size: 25px;
+    padding: 5px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10% 2% 10%;
+}
+footer p{
+    font-weight: bold;
+    font-size: 25px;
+}
+#rsslogo{
+    width: 130px;
+    height: 50px;
+}
+#gitlogo{
+    width: 70px;
+    height: 70px;
 }
